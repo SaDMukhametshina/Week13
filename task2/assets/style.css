@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+}
+
+body {
+  margin-top: 10vw;
+  background-color: black;
+  color: azure;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.container h1 {
+  font-size: 3vw;
+}
+.container .block {
+  margin: 5vw;
+}
+.container .block input {
+  width: 11vw;
+  height: 2.5vw;
+  font-size: 1.5vw;
+  border: solid rgba(135, 174, 219, 0.788);
+  color: azure;
+  background-color: rgb(22, 22, 22);
+}
+.container .block button {
+  margin: 1vw;
+  width: 10vw;
+  height: 2.7vw;
+  font-size: 1.5vw;
+  border: solid rgb(63, 142, 232);
+  color: azure;
+  background-color: black;
+}
+.container #text {
+  font-size: 2vw;
+}/*# sourceMappingURL=style.css.map */
